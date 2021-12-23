@@ -13,7 +13,7 @@ jobs:
       - name: Check Node v 
         run: node -v
       - name: Build 
-        run: apt-get build
+        run: yarn build
       - name: zip create 
         run: zip -qq -r ./build-fe.zip .
         shell: bash
